@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fullscreen Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+/* Complaint Form and List Card */
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+/* Headers */
+h2, h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Complaints List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+li {
+  background-color: #e3f2fd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #1565c0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li strong {
+  color: #1a237e;
+}
+
+/* Scrollbar Customization */
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #90caf9;
+  border-radius: 10px;
+}
+
+ 
